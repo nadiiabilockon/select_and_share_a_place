@@ -6,21 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Select & Share</title>
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=GOOGLE_API_KEY"
       async
       defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC271AmNs0DYhqBENykSyz5wvbr_jdRqbI"
     ></script>
-    <script src="dist/bundle.js" defer></script>
     <link rel="stylesheet" href="app.css" />
   </head>
-
   <body>
     <div id="map">
       <p>Please enter the address!</p>
     </div>
     <form>
-      <input type="text" id="address" />
+      <input type="text" id="address" name="search" placeholder="Search.." />
       <button type="submit">Search plase</button>
     </form>
+    <script src="dist/bundle.js"></script>
   </body>
 </html>
